@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
 import numpy as np
 from prepare import *
-from MIP_solver import *
+from Solver_1 import *
 #get input rf from sample "concrete"
 df = pd.read_csv('concrete.csv')
 df=df.drop(df.columns[0], axis=1)
